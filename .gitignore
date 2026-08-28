@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.local
+*.env
+
+# Python virtual environment & bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Testing & coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary directories
+scratch/
+tmp/

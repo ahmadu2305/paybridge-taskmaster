@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+google-genai
+google-adk
+google-cloud-firestore
+google-cloud-aiplatform
+functions-framework
+requests
+twilio
+python-dotenv

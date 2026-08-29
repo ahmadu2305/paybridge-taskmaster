@@ -45,6 +45,7 @@ PayBridge is an autonomous background taskmaster built on Google Cloud that reso
    If confidence is below threshold (< 0.85), triggers an automated WhatsApp message to the customer asking for their invoice ID. When the customer replies, an inbound webhook parses the natural language reply, validates the invoice, marks the transaction resolved, and sends an immediate receipt confirmation.
 
 <img width="622" height="831" alt="Paybridge Repository" src="https://github.com/user-attachments/assets/54b07a55-3453-4098-859a-741cba62e770" />
+
 ---
 
 ## 🛠️ Tech Stack

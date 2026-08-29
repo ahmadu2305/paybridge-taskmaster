@@ -53,6 +53,8 @@ PayBridge is an autonomous background taskmaster built on Google Cloud that reso
 - **Infrastructure as Code**: Terraform (`infra/main.tf`)
 
 ---
+<img width="622" height="831" alt="Paybridge Repository" src="https://github.com/user-attachments/assets/54b07a55-3453-4098-859a-741cba62e770" />
+
 
 ## 📁 Project Structure
 

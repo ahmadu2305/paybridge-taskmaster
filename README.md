@@ -137,18 +137,6 @@ terraform apply -var="project_id=$GOOGLE_CLOUD_PROJECT" -var="container_image=gc
 
 ---
 
-## 🎬 Demo Recording Walkthrough
-
-When recording your video submission:
-
-1. **Introduction (20s)**: Open with the personal story above — the lost payment trying to book my mother's flight — then state the general problem.
-2. **Architecture & Strategy (30s)**: Explain the 3 tiers (Deterministic filter → Gemini 3.5 reasoning → WhatsApp customer loop).
-3. **Live Execution (60-90s)**: Run `scripts/simulate_demo.py` in terminal, using seeded/mock data. Point out:
-   - `txn_1001`: Deterministic match.
-   - `txn_1002`: Gemini matched Chidi Okonkwo based on customer correlation (94% confidence).
-   - `txn_1003`: Unmatched POS payment triggered WhatsApp follow-up.
-4. **Live WhatsApp Confirmation (30s)**: Show the WhatsApp message received on your phone (`test_whatsapp.py`) and explain how inbound replies automatically resolve the invoice!
-
 ## About
 
 Autonomous financial reconciliation Taskmaster agent that matches Paystack transactions against invoices using Gemini 3.5 reasoning with automated WhatsApp human-in-the-loop resolution.

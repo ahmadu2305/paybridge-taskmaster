@@ -20,7 +20,8 @@ In emerging markets (and payment gateways like Paystack), direct bank transfers 
 ![PayBridge architecture — Cloud Scheduler triggers a Cloud Run agent that checks Paystack, Firestore, and Vertex AI, then escalates unresolved payments to Twilio WhatsApp]
 
 
-<img width="1536" height="1024" alt="PayBridge Taskmaster - Architecture" src="https://github.com/user-attachments/assets/bae834cc-7f7d-4993-9cad-7e0d1f650b78" />
+<img width="1536" height="1024" alt="6DCC86FA-ACD1-4B0F-A849-0B5BCCC9C55D" src="https://github.com/user-attachments/assets/7da32631-b1e5-4d75-9249-2ac67b5cc48b" />
+
 
 
 
